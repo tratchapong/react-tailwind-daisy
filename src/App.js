@@ -1,7 +1,14 @@
+import Daisy from "./Daisy";
+import Rating from "./Rating";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <button className="btn btn-primary mx-auto my-3 block">
+        Please Rate Us
+      </button>
+      {/* <Daisy /> */}
+      <Rating />
     </div>
   );
 }
